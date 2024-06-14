@@ -12,6 +12,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             VStack {
+                // Images appears when button is clicked
                 Text("Which cat breed?")
                     .font(.largeTitle)
                     .fontWeight(.bold)
