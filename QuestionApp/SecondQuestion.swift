@@ -12,6 +12,7 @@ struct SecondQuestion: View {
     var body: some View {
         NavigationStack {
             VStack {
+                // Second question
                 Text("Which dog breed?")
                     .font(.largeTitle)
                     .fontWeight(.bold)
